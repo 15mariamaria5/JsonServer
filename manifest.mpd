@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<MPD
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="urn:mpeg:DASH:schema:MPD:2011"
-  xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011"
-  type="static"
-  mediaPresentationDuration="PT61.164S"
-  minBufferTime="PT1S"
-  profiles="urn:webm:dash:profile:webm-on-demand:2012">
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT61.164S">
 <Period id="0" start="PT0S" duration="PT61.164S" >
 <AdaptationSet id="0" mimeType="video/webm" codecs="vp9" bitstreamSwitching="true" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
 <Representation id="0" bandwidth="198815" width="160" height="90">
